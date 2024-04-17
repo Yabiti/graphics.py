@@ -1,1 +1,3 @@
-import emoji 
+from pyfiglet import Figlet
+
+
