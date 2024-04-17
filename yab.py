@@ -1,5 +1,8 @@
 import sys
-try:
-    print("Hello, my name is", sys.argv[1])
-except IndexError:
-    print("too few arguments")
+
+if len(sys.argv) < 3:
+    print("Too few arguments")
+elif len(sys.argv) > 3:
+    print("Too many arguments")
+else:
+    print("Hello my name is", sys.argv[1])
