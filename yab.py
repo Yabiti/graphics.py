@@ -1,12 +1,2 @@
-import emoji
-import sys
+import emoji 
 
-user = input("input: ")
-output = " "
-
-user = user.convert(emoji)
-
-if len(sys.argv) == 2:
-    print("Hello", sys.argv[1])
-else:
-    user.replace("", emoji.emojize)
