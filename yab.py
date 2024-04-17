@@ -1,8 +1,3 @@
-import random
+import sys
 
-cards = ["jack", "queen", "king"]
-
-random.shuffle(cards)
-
-for card in cards:
-    print(card)
+print("Hello, my name is", sys.argv[1])
